@@ -123,6 +123,14 @@
 /* ==== /Cong Spa ==== */
 
 .logo-main{white-space:nowrap;}
+
+/* Trang: свой логотип с павлином (как золотая вывеска в зале), он выше обычного — шапка под него */
+.t-cong .logo-img{height:68px}
+.t-cong .nav.scrolled .logo-img{height:56px}
+@media (max-width:599px){
+  .t-cong .logo-img,.t-cong .nav.scrolled .logo-img{height:56px;width:auto}
+}
+.t-cong .footer-logo{height:124px}
 </style>
 <script>document.documentElement.classList.add("js")</script>
 <link rel="preload" as="image" href="../img/hero-1200.webp?v=450a5a58" imagesrcset="../img/hero-800.webp?v=dfc7fc59 800w, ../img/hero-1200.webp?v=450a5a58 1200w" imagesizes="(min-width: 960px) 40vw, 100vw">
@@ -133,7 +141,7 @@
 
 <header class="nav" id="top">
   <div class="wrap nav-inner">
-    <a class="logo" href="#top" aria-label="Trang Nail"><span class="logo-main">Trang Nail</span></a>
+    <a class="logo" href="#top" aria-label="Trang Nail"><img class="logo-img" src="../logo-wide.png" alt="Trang Nail" width="1576" height="872"></a>
     <nav class="nav-links" aria-label="Меню">
       <a href="#services">Услуги</a>
 <a href="#reviews">Отзывы</a>      <a href="#visit">Как добраться</a>
@@ -362,7 +370,7 @@ I’m really glad I found this place on Google Maps and decided to give it a try
 <footer class="footer">
   <div class="wrap footer-grid">
     <div class="footer-brand">
-      <p>Маникюр, педикюр, гель-лак и дизайн: Bùi Bằng Đoàn, Хошимин. Каждый день 08:30–19:30.</p>
+<img class="footer-logo" src="../logo-dark.png" alt="Trang Nail" width="1576" height="872" loading="lazy">      <p>Маникюр, педикюр, гель-лак и дизайн: Bùi Bằng Đoàn, Хошимин. Каждый день 08:30–19:30.</p>
     </div>
     <div class="footer-col">
       <h4>Услуги</h4>
